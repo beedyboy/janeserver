@@ -9,8 +9,8 @@ const cors = require("cors");
 var routes = require("./models/index");
 // var sms = require('./plugins/sms');
 const app = express();
-// const origin = "https://office-manager-client.herokuapp.com";
-const origin = '*';
+const origin = "https://jane-client.herokuapp.com";
+// const origin = '*';
 app.use(
   cors({
     allowedHeaders: [
